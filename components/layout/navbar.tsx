@@ -36,15 +36,15 @@ interface FeatureProps {
 const routeList: RouteProps[] = [
   {
     href: "#testimonials",
-    label: "Testimonials",
+    label: "Testimonios",
   },
   {
     href: "#team",
-    label: "Team",
+    label: "Equipo",
   },
   {
     href: "#contact",
-    label: "Contact",
+    label: "Contacto",
   },
   {
     href: "#faq",
@@ -54,18 +54,18 @@ const routeList: RouteProps[] = [
 
 const featureList: FeatureProps[] = [
   {
-    title: "Showcase Your Value ",
-    description: "Highlight how your product solves user problems.",
+    title: "Muestra tu Valor",
+    description: "Destaca cómo tu producto resuelve los problemas del usuario.",
   },
   {
-    title: "Build Trust",
+    title: "Genera Confianza",
     description:
-      "Leverages social proof elements to establish trust and credibility.",
+      "Aprovecha elementos de prueba social para establecer confianza y credibilidad.",
   },
   {
-    title: "Capture Leads",
+    title: "Captura Leads",
     description:
-      "Make your lead capture form visually appealing and strategically.",
+      "Haz que tu formulario de captura de leads sea visualmente atractivo y estratégico.",
   },
 ];
 

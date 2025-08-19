@@ -11,39 +11,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Compatible con Móviles",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Diseño completamente responsivo que se adapta perfectamente a cualquier dispositivo móvil o de escritorio.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "Prueba Social",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Incluye testimonios y elementos que generan confianza y credibilidad en tus usuarios.",
   },
   {
     icon: "Goal",
-    title: "Targeted Content",
+    title: "Contenido Dirigido",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Mensajes claros y específicos que conectan directamente con las necesidades de tu audiencia.",
   },
   {
     icon: "PictureInPicture",
-    title: "Strong Visuals",
+    title: "Visuales Impactantes",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Imágenes y gráficos de alta calidad que capturan la atención y comunican tu mensaje eficazmente.",
   },
   {
     icon: "MousePointerClick",
-    title: "Clear CTA",
+    title: "Llamadas a la Acción Claras",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Botones y enlaces estratégicamente ubicados para maximizar las conversiones y engagement.",
   },
   {
     icon: "Newspaper",
-    title: "Clear Headline",
+    title: "Titulares Claros",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Encabezados convincentes que comunican inmediatamente el valor de tu propuesta.",
   },
 ];
 
@@ -51,17 +51,16 @@ export const FeaturesSection = () => {
   return (
     <section id="features" className="container py-24 sm:py-32">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-        Features
+        Características
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        What Makes Us Different
+        Lo Que Nos Hace Diferentes
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        Descubre las funcionalidades únicas que hacen de nuestra plantilla la 
+        elección perfecta para crear páginas de aterrizaje exitosas y atractivas.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

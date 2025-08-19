@@ -25,18 +25,18 @@ interface PlanProps {
 
 const plans: PlanProps[] = [
   {
-    title: "Free",
+    title: "Gratuito",
     popular: 0,
     price: 0,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Start Free Trial",
+      "Perfecto para empezar y probar nuestras funcionalidades básicas.",
+    buttonText: "Iniciar Prueba Gratuita",
     benefitList: [
-      "1 team member",
-      "1 GB storage",
-      "Upto 2 pages",
-      "Community support",
-      "AI assistance",
+      "1 miembro del equipo",
+      "1 GB de almacenamiento",
+      "Hasta 2 páginas",
+      "Soporte de la comunidad",
+      "Asistencia IA",
     ],
   },
   {
@@ -44,29 +44,29 @@ const plans: PlanProps[] = [
     popular: 1,
     price: 45,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Get starterd",
+      "Ideal para equipos pequeños que buscan funcionalidades avanzadas.",
+    buttonText: "Comenzar",
     benefitList: [
-      "4 team member",
-      "8 GB storage",
-      "Upto 6 pages",
-      "Priority support",
-      "AI assistance",
+      "4 miembros del equipo",
+      "8 GB de almacenamiento",
+      "Hasta 6 páginas",
+      "Soporte prioritario",
+      "Asistencia IA",
     ],
   },
   {
-    title: "Enterprise",
+    title: "Empresarial",
     popular: 0,
     price: 120,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Contact US",
+      "Para organizaciones grandes que necesitan máximo rendimiento.",
+    buttonText: "Contáctanos",
     benefitList: [
-      "10 team member",
-      "20 GB storage",
-      "Upto 10 pages",
-      "Phone & email support",
-      "AI assistance",
+      "10 miembros del equipo",
+      "20 GB de almacenamiento",
+      "Hasta 10 páginas",
+      "Soporte telefónico y email",
+      "Asistencia IA",
     ],
   },
 ];
@@ -75,15 +75,15 @@ export const PricingSection = () => {
   return (
     <section className="container py-24 sm:py-32">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-        Pricing
+        Precios
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Get unlimitted access
+        Obtén acceso ilimitado
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14">
-        Lorem ipsum dolor sit amet consectetur adipisicing reiciendis.
+        Elige el plan que mejor se adapte a tus necesidades y comienza a crear hoy mismo.
       </h3>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-4">

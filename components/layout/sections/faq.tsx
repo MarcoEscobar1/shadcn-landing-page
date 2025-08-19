@@ -13,32 +13,32 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "¿Esta plantilla es gratuita?",
+    answer: "Sí. Es una plantilla gratuita de NextJS con Shadcn.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "¿Cómo puedo personalizar los colores y el diseño?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Puedes personalizar fácilmente los colores modificando las variables CSS en el archivo globals.css. También puedes cambiar componentes en la carpeta de componentes para ajustar el diseño según tus necesidades.",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+      "¿La plantilla es compatible con dispositivos móviles?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "Absolutamente. La plantilla está diseñada con un enfoque mobile-first y es completamente responsiva en todos los dispositivos.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "¿Puedo usar esta plantilla para proyectos comerciales?",
+    answer: "Sí, puedes usar esta plantilla para proyectos tanto personales como comerciales sin restricciones.",
     value: "item-4",
   },
   {
     question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+      "¿Qué soporte está disponible si tengo problemas?",
+    answer: "Ofrecemos documentación completa y soporte a través de nuestra comunidad en GitHub y Discord.",
     value: "item-5",
   },
 ];
@@ -48,11 +48,11 @@ export const FAQSection = () => {
     <section id="faq" className="container md:w-[700px] py-24 sm:py-32">
       <div className="text-center mb-8">
         <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-          FAQS
+          PREGUNTAS FRECUENTES
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold">
-          Common Questions
+          Preguntas Comunes
         </h2>
       </div>
 

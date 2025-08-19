@@ -27,51 +27,51 @@ interface ReviewProps {
 const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe",
-    userName: "Product Manager",
+    name: "Juan Pérez",
+    userName: "Gerente de Producto",
     comment:
-      "Wow NextJs + Shadcn is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+      "¡Increíble! NextJs + Shadcn es espectacular. Esta plantilla me permite cambiar colores, fuentes e imágenes para que coincidan con mi identidad de marca.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Sophia Collins",
-    userName: "Cybersecurity Analyst",
+    name: "Sofía Collins",
+    userName: "Analista de Ciberseguridad",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+      "Una herramienta excepcional que ha transformado completamente mi forma de crear páginas web. La facilidad de personalización es impresionante.",
     rating: 4.8,
   },
 
   {
     image: "https://github.com/shadcn.png",
-    name: "Adam Johnson",
-    userName: "Chief Technology Officer",
+    name: "Adán Johnson",
+    userName: "Director de Tecnología",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "La mejor inversión que he hecho para mi empresa. El diseño es elegante y la funcionalidad es exactamente lo que necesitábamos.",
     rating: 4.9,
   },
   {
     image: "https://github.com/shadcn.png",
     name: "Ethan Parker",
-    userName: "Data Scientist",
+    userName: "Científico de Datos",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Perfecta integración con nuestras herramientas existentes. La documentación es clara y el soporte técnico es excepcional.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
     name: "Ava Mitchell",
-    userName: "IT Project Manager",
+    userName: "Gerente de Proyectos TI",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+      "Hemos reducido significativamente el tiempo de desarrollo gracias a esta plantilla. Altamente recomendada para equipos ágiles.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
     name: "Isabella Reed",
-    userName: "DevOps Engineer",
+    userName: "Ingeniera DevOps",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "La arquitectura es sólida y escalable. Implementamos múltiples proyectos con esta base y todos han sido exitosos.",
     rating: 4.9,
   },
 ];
@@ -81,11 +81,11 @@ export const TestimonialSection = () => {
     <section id="testimonials" className="container py-24 sm:py-32">
       <div className="text-center mb-8">
         <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-          Testimonials
+          Testimonios
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-          Hear What Our 1000+ Clients Say
+          Escucha lo que Dicen Nuestros +1000 Clientes
         </h2>
       </div>
 

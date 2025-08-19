@@ -16,7 +16,7 @@ export const FooterSection = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Contact</h3>
+            <h3 className="font-bold text-lg">Contacto</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
                 Github
@@ -37,7 +37,7 @@ export const FooterSection = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Platforms</h3>
+            <h3 className="font-bold text-lg">Plataformas</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
                 iOS
@@ -58,10 +58,10 @@ export const FooterSection = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Help</h3>
+            <h3 className="font-bold text-lg">Ayuda</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
-                Contact Us
+                Contáctanos
               </Link>
             </div>
 
@@ -73,13 +73,13 @@ export const FooterSection = () => {
 
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
-                Feedback
+                Comentarios
               </Link>
             </div>
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Socials</h3>
+            <h3 className="font-bold text-lg">Redes Sociales</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
                 Twitch
@@ -103,7 +103,7 @@ export const FooterSection = () => {
         <Separator className="my-6" />
         <section className="">
           <h3 className="">
-            &copy; 2024 Designed and developed by
+            &copy; 2024 Diseñado y desarrollado por
             <Link
               target="_blank"
               href="https://github.com/leoMirandaa"
